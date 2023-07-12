@@ -1,0 +1,54 @@
+@import url('./lib/bootstrap-icons.css');
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../../assets/font/Outfit-VariableFont_wght.ttf');
+}
+
+html {
+    user-select: none;
+}
+
+body {
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(to right, rgb(29, 13, 134), rgb(151, 24, 2));
+    background-color: rgb(33, 38, 43);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(212, 212, 212);
+}
+
+.logo {
+    animation: home-logo-spin infinite 20s linear;
+}
+
+.bg-custom-black {
+    background-color: rgba(0, 0, 0, 0.575)!important;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 425px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@keyframes home-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -28,19 +28,43 @@ body {
     background-color: rgba(0, 0, 0, 0.575)!important;
 }
 
-.monospace {
-    font-family: 'Courier New', Courier, monospace;
+.home-icon {
+    font-size: 7rem;
+}
+
+.text-xxl {
+    font-size: 4rem;
+}
+
+.text-xl {
+    font-size: 3rem;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-sm {
+    font-size: 0.75rem;
+}
+
+.text-sm {
+    font-size: 0.5rem;
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
     html {
-        font-size: 80%;
+        font-size: 85%;
     }
 }
 
 @media (min-width: 200px) and (max-width: 425px) {
     html {
-        font-size: 62.5%;
+        font-size: 70%;
     }
 }
 

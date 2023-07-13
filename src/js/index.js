@@ -1,4 +1,18 @@
 window.onload = () => {
+    navbarBg();
+
+    $(window).on('scroll', () => {
+        navbarBg();
+    })
+
+    function navbarBg(){
+        if(scrollY > 50){
+            $('#custom-navbar').addClass('bg-custom-black');
+        } else {
+            $('#custom-navbar').removeClass('bg-custom-black');
+        }
+    }
+
     $('#type-effect').val('')
 
     let typeWord1 = 'WEB DESIGNER';

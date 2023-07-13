@@ -58,7 +58,7 @@ body {
 
 .nav-link.active {
     text-decoration: underline;
-    background-color: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
 }
 
 @media (min-width: 426px) and (max-width: 768px) {

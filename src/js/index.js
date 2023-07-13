@@ -7,9 +7,9 @@ window.onload = () => {
 
     function navbarBg(){
         if(scrollY > 50){
-            $('#custom-navbar').addClass('bg-custom-black');
+            $('#custom-navbar').css('background-color', 'black');
         } else {
-            $('#custom-navbar').removeClass('bg-custom-black');
+            $('#custom-navbar').css('background-color', 'rgba(34, 34, 34, 0)');
         }
     }
 
